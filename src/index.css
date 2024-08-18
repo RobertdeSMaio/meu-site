@@ -1,13 +1,64 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(145, 241, 209);
 }
-
+a {
+  text-decoration: none;
+}
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.navBar {
+  background-color: rgb(250, 250, 250);
+  border-radius: 0.5rem;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.navBar .imgLogo {
+  margin-left: 1rem;
+  height: 35px;
+}
+.navBar ul {
+  margin-right: 1rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.navBar ul li a {
+  position: relative;
+  padding-bottom: 0.75rem;
+  color: rgb(0, 0, 0);
+}
+.navBar ul li a::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(112, 66, 238);
+  transition: all 0.3s ease;
+}
+.navBar ul li a::after:hover {
+  width: 70%;
+}
+.apresentation img {
+  height: 400px;
+  position: relative;
+}
+h1 span(
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #ffffff;
+)
