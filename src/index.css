@@ -54,6 +54,16 @@ code {
 .navBar ul li a::after:hover {
   width: 70%;
 }
+.apresentation {
+  max-width: 1200px;
+  margin: auto;
+  padding: 5rem 2rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
 .apresentation img {
   height: 400px;
   position: relative;
