@@ -57,8 +57,9 @@ code {
 .apresentation img {
   height: 400px;
   position: relative;
+  align-items: center;
 }
-h1 span(
+h1 span {
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px #ffffff;
-)
+  -webkit-text-stroke: 1px #000000;
+}
